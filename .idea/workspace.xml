@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc913bc-62a8-4a69-a2ff-dcad26a4f32d" name="Default" comment="complete excel sheet column number">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/ValidAnagram.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/leetcode/ValidAnagramTest.java" />
+    <list default="true" id="4dc913bc-62a8-4a69-a2ff-dcad26a4f32d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java" afterPath="$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java" />
     </list>
     <ignored path="AlgorithmExample.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,21 +34,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FindTheDifference.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FindTheDifference.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="33" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.6985294">
+              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindTheDifferenceTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FindTheDifferenceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33088234">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +116,8 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ExcelSheetColumnNumber.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/ValidAnagramTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/ValidAnagram.java" />
-        <option value="$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java" />
       </list>
     </option>
   </component>
@@ -825,7 +822,7 @@
       <workItem from="1471875082646" duration="10000" />
       <workItem from="1471875114401" duration="2665000" />
       <workItem from="1471958252706" duration="1867000" />
-      <workItem from="1472477032666" duration="1929000" />
+      <workItem from="1472477032666" duration="2298000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Two Sum II">
       <created>1471877196063</created>
@@ -839,15 +836,21 @@
       <option name="project" value="LOCAL" />
       <updated>1471878215556</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add the test of Finding the Different">
+      <created>1472480705174</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1472480705175</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="FindTheDifferenceTest - 2016.08.29 at 22h 24m 28s.xml">
       <configuration name="FindTheDifferenceTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TwoSumIITest_testTwoSum - 2016.08.22 at 22h 38m 17s.xml">
-      <configuration name="TwoSumIITest.testTwoSum" configurationId="JUnit" />
+    <history-entry file="FindTheDifferenceTest - 2016.08.29 at 22h 29m 38s.xml">
+      <configuration name="FindTheDifferenceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TwoSumIITest_testTwoSum - 2016.08.22 at 22h 38m 49s.xml">
       <configuration name="TwoSumIITest.testTwoSum" configurationId="JUnit" />
@@ -875,7 +878,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46185000" />
+    <option name="totallyTimeSpent" value="46554000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -896,8 +899,8 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.359375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47469878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35903615" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47469878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2682927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -930,7 +933,8 @@
     <confirmMoveToFailedCommit value="2" />
     <MESSAGE value="Complete Two Sum II" />
     <MESSAGE value="complete excel sheet column number" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete excel sheet column number" />
+    <MESSAGE value="Add the test of Finding the Different" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the test of Finding the Different" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1302,21 +1306,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33088234">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6985294">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

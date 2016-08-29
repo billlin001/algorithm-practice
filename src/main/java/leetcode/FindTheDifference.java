@@ -8,8 +8,20 @@ package leetcode;
 public class FindTheDifference {
 
     public char findTheDifference(String s, String t) {
+        int[] countOfS = new int[26];
+        int codeOfA  = 'a';
+        for(char item : s.toCharArray()) {
+            int index = item - codeOfA;
+            countOfS[index]++;
+        }
 
-        return '1';
+        for(char item : t.toCharArray()) {
+            int index = item - codeOfA;
+            if(countOfS[index] == 0) return item;
+            countOfS[index]--;
+        }
+
+        return '0';
     }
 
 }
