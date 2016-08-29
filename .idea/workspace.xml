@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4dc913bc-62a8-4a69-a2ff-dcad26a4f32d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/BestTimeToBuyAndSellStockII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/LinkedListRandomNode.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/TwoSumII.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/leetcode/BestTimeToBuyAndSellStockIITest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/leetcode/LinkedListRandomNodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/leetcode/TwoSumIITest.java" />
+    <list default="true" id="4dc913bc-62a8-4a69-a2ff-dcad26a4f32d" name="Default" comment="complete excel sheet column number">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/leetcode/ValidAnagram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/leetcode/ValidAnagramTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmExample.iws" />
@@ -26,12 +24,42 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="AlgorithmExample" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FindTheDifference.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="33" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindTheDifferenceTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33088234">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,6 +70,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="bill" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -82,6 +115,12 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/BestTimeToBuyAndSellStockII.java" />
         <option value="$PROJECT_DIR$/src/test/java/leetcode/TwoSumIITest.java" />
         <option value="$PROJECT_DIR$/src/main/java/leetcode/TwoSumII.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/ExcelSheetColumnNumberTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/ExcelSheetColumnNumber.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/ValidAnagramTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/ValidAnagram.java" />
+        <option value="$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java" />
+        <option value="$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java" />
       </list>
     </option>
   </component>
@@ -101,6 +140,16 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="MavenRunner">
     <option name="jreName" value="#JAVA_INTERNAL" />
@@ -135,86 +184,11 @@
     </navigator>
     <panes>
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AlgorithmExample" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,6 +204,22 @@
     <property name="FullScreen" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java101" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="165" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="190" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="194" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="979" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="176" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="186" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="190" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="976" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -239,8 +229,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TwoSumIITest.testTwoSum">
-    <configuration default="false" name="LinkedListRandomNodeTest.testGetRandom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.FindTheDifferenceTest">
+    <configuration default="false" name="ExcelSheetColumnNumberTest.givenAA_shouldReturn27" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
@@ -251,8 +241,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.LinkedListRandomNodeTest" />
-      <option name="METHOD_NAME" value="testGetRandom" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.ExcelSheetColumnNumberTest" />
+      <option name="METHOD_NAME" value="givenAA_shouldReturn27" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -266,7 +256,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BestTimeToBuyAndSellStockIITest.testMaxProfit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ValidAnagramTest.given_s_is_anagram_and_t_is_nagaram_should_return_true" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
@@ -277,8 +267,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStockIITest" />
-      <option name="METHOD_NAME" value="testMaxProfit" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidAnagramTest" />
+      <option name="METHOD_NAME" value="given_s_is_anagram_and_t_is_nagaram_should_return_true" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -292,7 +282,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BestTimeToBuyAndSellStockIITest.given_1_4_2_shouldReturn3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ValidAnagramTest.given_s_is_rat_and_t_is_car_should_return_false" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
@@ -303,8 +293,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStockIITest" />
-      <option name="METHOD_NAME" value="given_1_4_2_shouldReturn3" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidAnagramTest" />
+      <option name="METHOD_NAME" value="given_s_is_rat_and_t_is_car_should_return_false" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -318,7 +308,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BestTimeToBuyAndSellStockIITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
@@ -329,7 +319,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.BestTimeToBuyAndSellStockIITest" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.ValidAnagramTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -344,7 +334,7 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="TwoSumIITest.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="FindTheDifferenceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="leetcode.*" />
@@ -355,9 +345,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="leetcode" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.TwoSumIITest" />
-      <option name="METHOD_NAME" value="testTwoSum" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.FindTheDifferenceTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -793,19 +783,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.LinkedListRandomNodeTest.testGetRandom" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BestTimeToBuyAndSellStockIITest.testMaxProfit" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.BestTimeToBuyAndSellStockIITest.given_1_4_2_shouldReturn3" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.BestTimeToBuyAndSellStockIITest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TwoSumIITest.testTwoSum" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.ExcelSheetColumnNumberTest.givenAA_shouldReturn27" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ValidAnagramTest.given_s_is_anagram_and_t_is_nagaram_should_return_true" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ValidAnagramTest.given_s_is_rat_and_t_is_car_should_return_false" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ValidAnagramTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FindTheDifferenceTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TwoSumIITest.testTwoSum" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.BestTimeToBuyAndSellStockIITest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.BestTimeToBuyAndSellStockIITest.given_1_4_2_shouldReturn3" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.BestTimeToBuyAndSellStockIITest.testMaxProfit" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.LinkedListRandomNodeTest.testGetRandom" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.FindTheDifferenceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ValidAnagramTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ValidAnagramTest.given_s_is_rat_and_t_is_car_should_return_false" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ValidAnagramTest.given_s_is_anagram_and_t_is_nagaram_should_return_true" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ExcelSheetColumnNumberTest.givenAA_shouldReturn27" />
       </list>
     </recent_temporary>
   </component>
@@ -833,34 +823,28 @@
       <workItem from="1471244337473" duration="20000" />
       <workItem from="1471265473873" duration="7202000" />
       <workItem from="1471875082646" duration="10000" />
-      <workItem from="1471875114401" duration="1448000" />
+      <workItem from="1471875114401" duration="2665000" />
+      <workItem from="1471958252706" duration="1867000" />
+      <workItem from="1472477032666" duration="1929000" />
     </task>
+    <task id="LOCAL-00001" summary="Complete Two Sum II">
+      <created>1471877196063</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1471877196063</updated>
+    </task>
+    <task id="LOCAL-00002" summary="complete excel sheet column number">
+      <created>1471878215555</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1471878215556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BestTimeToBuyAndSellStockIITest_given_1_4_2_shouldReturn3 - 2016.08.16 at 00h 42m 55s.xml">
-      <configuration name="BestTimeToBuyAndSellStockIITest.given_1_4_2_shouldReturn3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestTimeToBuyAndSellStockIITest_given_1_4_2_shouldReturn3 - 2016.08.16 at 01h 16m 02s.xml">
-      <configuration name="BestTimeToBuyAndSellStockIITest.given_1_4_2_shouldReturn3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestTimeToBuyAndSellStockIITest_testMaxProfit - 2016.08.16 at 00h 33m 13s.xml">
-      <configuration name="BestTimeToBuyAndSellStockIITest.testMaxProfit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestTimeToBuyAndSellStockIITest_testMaxProfit - 2016.08.16 at 00h 33m 41s.xml">
-      <configuration name="BestTimeToBuyAndSellStockIITest.testMaxProfit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestTimeToBuyAndSellStockIITest_testMaxProfit - 2016.08.16 at 00h 36m 13s.xml">
-      <configuration name="BestTimeToBuyAndSellStockIITest.testMaxProfit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BestTimeToBuyAndSellStockIITest_testMaxProfit - 2016.08.16 at 00h 45m 14s.xml">
-      <configuration name="BestTimeToBuyAndSellStockIITest.testMaxProfit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoSumIITest_testTwoSum - 2016.08.22 at 22h 19m 02s.xml">
-      <configuration name="TwoSumIITest.testTwoSum" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TwoSumIITest_testTwoSum - 2016.08.22 at 22h 19m 35s.xml">
-      <configuration name="TwoSumIITest.testTwoSum" configurationId="JUnit" />
+    <history-entry file="FindTheDifferenceTest - 2016.08.29 at 22h 24m 28s.xml">
+      <configuration name="FindTheDifferenceTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TwoSumIITest_testTwoSum - 2016.08.22 at 22h 38m 17s.xml">
       <configuration name="TwoSumIITest.testTwoSum" configurationId="JUnit" />
@@ -868,28 +852,59 @@
     <history-entry file="TwoSumIITest_testTwoSum - 2016.08.22 at 22h 38m 49s.xml">
       <configuration name="TwoSumIITest.testTwoSum" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ValidAnagramTest - 2016.08.23 at 21h 57m 59s.xml">
+      <configuration name="ValidAnagramTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidAnagramTest - 2016.08.23 at 22h 03m 59s.xml">
+      <configuration name="ValidAnagramTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidAnagramTest_given_s_is_anagram_and_t_is_nagaram_should_return_true - 2016.08.23 at 21h 44m 47s.xml">
+      <configuration name="ValidAnagramTest.given_s_is_anagram_and_t_is_nagaram_should_return_true" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidAnagramTest_given_s_is_anagram_and_t_is_nagaram_should_return_true - 2016.08.23 at 21h 55m 10s.xml">
+      <configuration name="ValidAnagramTest.given_s_is_anagram_and_t_is_nagaram_should_return_true" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidAnagramTest_given_s_is_anagram_and_t_is_nagaram_should_return_true - 2016.08.23 at 21h 56m 23s.xml">
+      <configuration name="ValidAnagramTest.given_s_is_anagram_and_t_is_nagaram_should_return_true" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidAnagramTest_given_s_is_anagram_and_t_is_nagaram_should_return_true - 2016.08.23 at 21h 57m 21s.xml">
+      <configuration name="ValidAnagramTest.given_s_is_anagram_and_t_is_nagaram_should_return_true" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ValidAnagramTest_given_s_is_rat_and_t_is_car_should_return_false - 2016.08.23 at 21h 57m 52s.xml">
+      <configuration name="ValidAnagramTest.given_s_is_rat_and_t_is_car_should_return_false" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41172000" />
+    <option name="totallyTimeSpent" value="46185000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650602" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932693" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32572114" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47469878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.359375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47469878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3703466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2682927" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991013" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1931964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45479453" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -898,7 +913,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -911,6 +925,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <confirmMoveToFailedCommit value="2" />
+    <MESSAGE value="Complete Two Sum II" />
+    <MESSAGE value="complete excel sheet column number" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete excel sheet column number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -931,30 +951,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/LinkedListRandomNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/BestTimeToBuyAndSellStockII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/BestTimeToBuyAndSellStockIITest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/TopKFrequentElements.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1224,7 +1220,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.8970588">
           <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1232,7 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.036764707">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,7 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.375">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1248,9 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6691176">
           <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1258,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6617647">
           <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,7 +1255,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.44852942">
           <caret line="29" column="31" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.029703">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ExcelSheetColumnNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42533082">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ExcelSheetColumnNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5463138">
+          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/ValidAnagramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64727956">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/ValidAnagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59099436">
+          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/FindTheDifference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/leetcode/FindTheDifferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33088234">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
