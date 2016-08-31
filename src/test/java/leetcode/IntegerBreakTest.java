@@ -1,5 +1,6 @@
 package leetcode;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -23,5 +24,13 @@ public class IntegerBreakTest {
         int actual = new IntegerBreak().integerBreak(n);
         int expected = 36;
         assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testIntegerBreak_given58_printAllAnswer() throws Exception {
+        int n = 58;
+        int actual = new IntegerBreak().integerBreak(n);
+//        int expected = 36;
+//        assertEquals(expected, actual);
     }
 }
