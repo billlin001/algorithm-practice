@@ -1,12 +1,6 @@
 package leetcode;
 
 import java.util.*;
-import java.util.function.Function;
-import java.util.stream.Collectors;
-
-import static java.util.stream.Collectors.counting;
-import static java.util.stream.Collectors.groupingBy;
-import static java.util.stream.Collectors.summingInt;
 
 /**
  * https://leetcode.com/problems/intersection-of-two-arrays-ii/
@@ -15,26 +9,23 @@ import static java.util.stream.Collectors.summingInt;
  */
 public class IntersectionofTwoArraysTwo {
     public int[] intersect(int[] nums1, int[] nums2) {
+        Map<Integer, Integer> countOfNums1 = new HashMap<>();
+        for(int item : nums1) {
+            Integer count = countOfNums1.get(item);
+            if(count== null) countOfNums1.put(item, 1);
+            else countOfNums1.put(item, count + 1);
+        }
 
-        Map<Integer, Long> countOfNums1 = Arrays
-                    .stream(nums1).boxed().collect(Collectors.toList())
-                    .parallelStream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
-
-        System.out.println(countOfNums1);
-
-        List<Integer> ansList = new ArrayList<>();
-        Arrays.stream(nums2).forEach(item -> {
-            Long count = countOfNums1.get(item);
+        int[] ans = new int[nums1.length > nums2.length ? nums1.length : nums2.length];
+        int index = 0;
+        for (int item : nums2) {
+            Integer count = countOfNums1.get(item);
             if(count != null && count != 0) {
-                ansList.add(item);
+                ans[index++] = item;
                 countOfNums1.put(item, count - 1);
             }
-        });
+        }
 
-        System.out.println(ansList);
-
-        int[] ans = ansList.stream().mapToInt(i->i).toArray();
-
-        return ans;
+        return Arrays.copyOfRange(ans, 0, index);
     }
 }
