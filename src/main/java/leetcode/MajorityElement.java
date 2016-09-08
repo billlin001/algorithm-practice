@@ -10,19 +10,16 @@ import java.util.Map;
  */
 public class MajorityElement {
     public int majorityElement(int[] nums) {
-        Map<Integer, Integer> numsMap = new HashMap<>();
-        for(int item : nums) {
-            Integer count = numsMap.get(item);
-            if(count == null) numsMap.put(item, 1);
-            else numsMap.put(item, count + 1);
+        int majority = nums[0];
+        int count = 1;
+        for(int i = 1; i < nums.length; i++) {
+            if(count == 0) {
+                majority = nums[i];
+            } else if(nums[i] == majority) {
+                count++;
+            } else count--;
         }
 
-        int threshold = nums.length / 2;
-        for(Map.Entry<Integer, Integer> item : numsMap.entrySet()) {
-            Integer count = item.getValue();
-            if(count > threshold) return item.getKey();
-        }
-
-        return 0;
+        return majority;
     }
 }
